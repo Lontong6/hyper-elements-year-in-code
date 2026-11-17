@@ -1,0 +1,23 @@
+{
+  "name": "hyper-elements-year-in-code",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Year in Code — a data-driven year-in-review stats card (Canvas) rendered to PNG/SVG with Hyper Elements.",
+  "scripts": {
+    "render": "tsx src/render.tsx",
+    "check": "hyper-elements check src/year-in-code.tsx"
+  },
+  "dependencies": {
+    "@hyper-elements/react": "^0.4.5",
+    "@resvg/resvg-js": "^2.6.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "satori": "^0.33.5"
+  },
+  "devDependencies": {
+    "@hyper-elements/cli": "^0.2.9",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
